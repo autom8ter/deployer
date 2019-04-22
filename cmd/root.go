@@ -25,7 +25,7 @@ var inCluster bool
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "deployer",
+	Use: "deployer",
 	Long: `
 ooooooooo                          o888                                              
  888    88o  ooooooooo8 ooooooooo   888   ooooooo  oooo   oooo ooooooooo8 oo oooooo  

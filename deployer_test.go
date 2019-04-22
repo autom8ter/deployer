@@ -9,7 +9,7 @@ import (
 var util = objectify.Default()
 
 func TestNewDeployer(t *testing.T) {
-	d, err := deployer.NewDeployer(false)
+	d, err := deployer.NewDeployer(false, deployer.DefaultNamespace)
 	if err != nil {
 		t.Fatal(err.Error())
 	}
